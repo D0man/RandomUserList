@@ -28,7 +28,6 @@ export const GlobalStyles = createGlobalStyle`
     border-radius: 10px;
   }
   body {
-    padding: 1.25rem 1.5rem;
     font-family: var(--font-main);
     background-color: var(--main-background);
     color: var(--main-color);

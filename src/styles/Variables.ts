@@ -10,8 +10,8 @@ export const Variables = css`
     --fs-normal: 0.75rem;
     --fs-medium: 1.125rem;
     // Colors
-    --main-background: #282c34;
-    --main-color: #ffffff;
+    --main-background: #ffffff;
+    --main-color: #000000;
     --black: #000000;
   }
 `;
