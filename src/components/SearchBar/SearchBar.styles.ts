@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Field = styled.div`
     position: relative;
     display: inline-block;
+    margin-bottom: 20px;
 `;
 
 export const Label = styled.label`

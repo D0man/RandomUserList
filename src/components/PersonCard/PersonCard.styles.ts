@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
 export const PersonCardTile = styled.div`
-    padding: 1rem 0;
+    border: 1px solid black;
+    width: 18%;
+    min-width: 240px;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0 0 20px 20px;
 `;
 
 export const PersonCardImage = styled.figure`
@@ -13,5 +19,5 @@ export const PersonCardTitle= styled.p`
 `;
 
 export const PersonCardCountry = styled.p`
-    font-size: 1rem;
+    font-size: 1.25rem;
 `;

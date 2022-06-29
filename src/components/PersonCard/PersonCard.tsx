@@ -1,6 +1,6 @@
 import { PersonCardTile, PersonCardImage, PersonCardCountry, PersonCardTitle } from './PersonCard.styles'
 
-type CardData = {
+type PersonCardProps = {
     country: string,
     image: string;
     firstName: string;
@@ -8,7 +8,7 @@ type CardData = {
     title: string;
 }
 
-export function PersonCard({ country, image, firstName, secondName, title}: CardData) {
+export function PersonCard({ country, image, firstName, secondName, title}: PersonCardProps) {
     const personTitle = [title, firstName,secondName].join(' ').replace(/  +/g, ' ')
      return (
         <PersonCardTile>
